@@ -26,7 +26,8 @@ $topic = $r->getContentsWithWhere('f_topics', 'id', $IDtopic, 'id')[0];
 $topic->setUser()->setDate();
 
 $the_answers = (new Requestor(Answers::class))->getContentsWithWhere('f_topics_answers', 'id_topic', $IDtopic, 'answer_date');
- // INITIALISATION DU CHAMP DE REPONSES
+ // INITIALISATION DU CHAMP DE REPONSES 
+ // [*:category]/[*:slug]-[i:id]/topic-[i:IDtopic]
  
  if (isset($_POST['answer'])) {
  	if (isset($_SESSION['id'])) {
@@ -36,8 +37,9 @@ $the_answers = (new Requestor(Answers::class))->getContentsWithWhere('f_topics_a
 	 		$answer = new AnswersGenerator($id_user, $IDtopic, $answer);
 	 		$IDanswer = (int)$answer->addNewAnswer();
 	 		$answer->setid($IDanswer);
-	 		dump($answer);
 	 		unset($_SESSION['existed_topic']);
+	 		header('Location:'.$router->urlPut('Topic_show', ['category' => $category, 'slug' => $subcategory, 'id' => $IDsubCat, 'IDtopic' => $IDtopic]));
+	 		exit();
 	 	}
 	 	else{
 	 		$eror = "Veuillez renseillez votre réponse!";

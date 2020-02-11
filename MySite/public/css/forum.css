@@ -1,0 +1,252 @@
+/* CSS OF FORUM*/
+
+
+.forum-table, .table-table{
+	border: solid thin gray;
+}
+.forum-table thead, .table-table thead{
+	font-family: verdana;
+	font-size: 1rem;
+	color: #bbb;
+	text-shadow: 1px 1px 0px green;
+	font-weight: small;
+	background-color: rgba(150, 150, 150, 0.3);
+	border-bottom: solid thin gray;
+}
+
+.table-table{
+	color:#bbb;
+}
+
+.forum-table thead th, .table-table thead th{
+	padding: 0.5rem;
+}
+
+.forum-table tr, .table-table tr{
+	border-bottom: solid thin gray;
+}
+
+.forum-table a.link-forum{
+	font-size: 0.8rem;
+	color: white;
+	text-decoration: none;
+}
+
+.forum-table .category-forum-title{
+	font-family: verdana;
+	text-shadow: 1px 1px 0px black;
+	margin:2px;
+	font-size: ;
+	color:#aaa ;
+}
+
+.forum-table a.link-forum.info-forum:hover{
+	color: #bbb;
+}
+
+.forum-table a.subCat:hover span{
+	transform: scale(1.1);
+}
+
+.last-topic{
+	width: 99%;
+}
+
+.last-topic .last-topic-title{
+	text-shadow: 1px 1px 0px black;
+	margin:2px;
+	font-size: ;
+	color:#aaa ;
+}
+
+.last-topic .last-topic-link{
+	color:#aaa ;
+	text-decoration: none;
+}
+
+
+.btn-sub-cat, .btn-cat, .btn-action{
+	border: thin solid white;
+	background-color: rgba(50, 50, 150, 0.5);
+}
+
+.btn-action-remove{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: thin solid red;
+	background-color: rgba(200, 50, 100, 0.5);
+}
+
+.btn-action-alert{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: thin solid orange;
+	background-color: rgba(100, 200, 150, 0.5);
+}
+
+.btn-action-secure{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: thin solid #ff2222;
+	background-color: rgba(255, 100, 100, 0.5);
+}
+
+.btn-action-todo{
+	margin-top: 2px;
+	margin-bottom: 2px;
+	border: thin solid white;
+}
+
+.btn-sub-cat:hover, .btn-cat:hover, .btn-action:hover{
+	background-color: rgba(50, 50, 150, 0.7);
+}
+
+.addNow input{
+	
+}
+
+.addNow input::active{
+	
+}
+
+.forum-sub-cat-content a{
+	color:#bbe;
+	text-decoration: none;
+}
+
+.forum-sub-cat-content a:hover{
+	color: #aaa;
+}
+
+tbody tr:hover{
+	border:solid thin white;
+}
+
+.admin-users button{
+	padding: 1.5px;
+	padding-left: 0.9rem;
+	padding-right: 0.9rem;
+	color: white;
+	font-family: verdana;
+	font-size: 0.8rem;
+}
+
+.admin-users{
+	font-size: 0.87rem;
+}
+
+.text-danger-custumise{
+	color: rgba(200, 50, 50, 0.9);
+	text-shadow: 1px 1px 0px gray;
+}
+
+
+.forum-topic-content{
+	display: block;
+	clear: both;
+	color: #bbb;
+	text-shadow: 1px 1px 0px gray;
+	font-size: 1.1rem;
+	font-style: italic;
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.3);
+	font-family: georgia;
+	padding: 10px 0px;
+}
+
+.forum-topic-info-user{
+	display: inline-block;
+	width:100%;
+	float: right;
+	background-color: rgba(255, 255, 255, 0.3);
+	text-align: right;
+}
+
+.forum-topic-info-user span{
+	margin-right: 10px;
+	display: block;
+	font-size: 12px;
+	color: green;
+}
+.forum-topic-answers{
+	margin-top:5px;
+	padding-top: 10px;
+	border:thin solid gray;
+	background-color: rgba(100, 255, 255, 0.2);
+}
+
+.topic-answer{
+	
+	
+}
+
+.answer-user{
+ 	width:25%;
+	font-size: 12px;
+	font-style: italic;
+ 	margin-left: 7%;
+}
+
+.answer-user a{
+	text-decoration: none;
+	color: purple;
+}
+.answer-user img{
+	width:40px;
+	height: 40px;
+	border-radius: 100%;
+}
+
+#pseudo{
+	position: relative;
+	top:10px;
+}
+
+.answer-content{
+	width:90%;
+	padding:2px 5px;
+	margin-top:3px;
+	margin-right: 5%;
+	margin-bottom:0;
+	margin-left: 5%;
+	border:solid thin gray;
+	color: #bbb;
+	font-size: 15px;
+	border-radius: 10px;
+}
+
+.answer-date{
+	padding-top: 0;
+	display: inline-block;
+	clear: both;
+	color: purple;
+	font-size: 12px;
+	font-style: italic;
+	text-align: right;
+	margin-right: 5%;
+	position: relative;
+	top: -5px;
+	width:94%;
+}
+
+#answer-topics{
+	display: block;
+	max-width: 70%;
+	margin-left: 5px;
+	margin-bottom: 2px;
+}
+
+#answer-btn{
+	width:20%;
+}
+
+.alert-eror{
+	color: red;
+	text-shadow: 1px 1px 1px white;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+
+.alert-eror a{
+	color: inherit;
+}

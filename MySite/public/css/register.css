@@ -1,0 +1,129 @@
+.register-container{
+	clear: both;
+	border: solid thin white;
+	width: 80%;
+	padding-right: 5px;
+	padding-bottom: 30px;
+	margin:auto;
+	margin-bottom: 5px;
+}
+
+.register-container .register-title{
+	margin-bottom: 15px;
+	margin-top: 10px;
+	text-align: center;
+	text-shadow: 2px 2px 0px green;
+	text-decoration: underline;
+	color:white;
+	font-family: ;
+	font-size: 23px;
+	letter-spacing: 3px;
+}
+
+.register-container div{
+	margin: 0px;
+	padding: 0px;	
+}
+
+.register-table{
+	display: flex;
+	width: 100%;
+}
+
+
+.register-table .label{
+	width: 30%;
+}
+
+.register-table .label label, .topics-textarea{
+	color: white;
+	text-shadow: 2px 2px 0px green;
+}
+
+.register-table .input{
+	width: 70%;
+
+}
+
+.register-table .input input, .topics-textarea textarea{
+	display: inline-block;
+	padding: 6px 5px;
+	border:solid thin purple;
+	border-style: dotted;
+	border-radius: 3px;
+	font-style: italic;
+	background-color: rgba(255, 255, 255, 0.6);
+	width: 100%;
+}
+
+.register-container .btn-register{
+	border: thin solid white;
+	background-color: rgba(50, 50, 150, 0.5);
+}
+
+.register-container .btn-register.subscribe{
+	display: inline-block;
+	margin: auto;
+}
+
+.register-container .btn-register.subscribe:hover{
+	background-color: rgba(50, 50, 150, 0.7);
+
+}
+
+.subscribe-div{
+	width: 50%;
+	position: relative;
+	top:15px;
+	left: 30%;
+}
+
+.login-linker{
+	position: relative;
+	
+	top:25px;
+	font-size: 13px;
+}
+
+.login-linker a{
+	padding: 5px;
+}
+
+.invalidCustomFeedBack{
+	padding: 0;
+	margin: 0;
+	color: rgba(200, 0, 0, 0.8);
+	text-shadow: 1px 1px 0px gray;
+	font-style: italic;
+	position: relative;
+	left: 31%;
+	font-family: georgia;
+	letter-spacing: 2px;
+	font-size: 9px;
+}
+
+.invalidCustomFeedBackTextArea{
+	padding: 0;
+	margin: 0;
+	color: rgba(250, 50, 50, 1);
+	text-shadow: 0.5px 0.5px 0px black;
+	font-style: italic;
+	position: relative;
+	text-align: center;
+	bottom: 25px;
+	font-family: georgia;
+	letter-spacing: 2px;
+	font-size: 11px;
+	left:5%;
+}
+
+.input-danger{
+	border-color: #dc3545;
+    box-shadow: 0 0 0 .1rem rgba(220, 53, 69, .9);
+}
+
+.alert-erors{
+	border-color: #dc3545;
+    box-shadow: 0 0 0 .1rem rgba(220, 53, 69, .9);
+}
+

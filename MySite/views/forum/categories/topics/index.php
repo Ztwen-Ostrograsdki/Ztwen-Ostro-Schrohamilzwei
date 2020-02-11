@@ -8,6 +8,7 @@ use Vincent\Topics\Answers\Answers;
 use Vincent\Topics\Answers\AnswersGenerator;
 use Vincent\Topics\Topics;
 
+$title = "Lecture des reponses au topic et post de reponses";
 $IDtopic = (int)$params['IDtopic'];
 $IDsubCat = (int)$params['id'];
 $subcategory = urldecode($params['slug']);
